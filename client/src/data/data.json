@@ -1,0 +1,169 @@
+{
+  "Header": {
+    "title": "",
+    "paragraph": ""
+  },
+  "About": {
+    "paragraph": "Welcome to Kripas Construction, where building and construction meet craftsmanship and vision. Founded by two passionate individuals, Anand and Naveen, we embark on a journey to transform your construction dreams into solid reality. As a two-person startup, we take pride in our personal touch, offering customized solutions for every project. With unwavering dedication to quality and a keen eye for detail, we are committed to delivering structures that stand the test of time. Our portfolio boasts a variety of projects, each reflecting our commitment to innovative building and unwavering quality. Join us on our journey, where each construction tells a unique story, and every building is a testament to our dedication to craftsmanship and precision.",
+    "Why": [
+      "Client Meetings To Know About All Their Requirments",
+      "Prepare the Elavation Design as Per Client's Choice",
+      "Quality Craftsmanship",
+      "Timely Delivery"
+    ],
+    "Why2": [
+      "We Give Complete Care And Cure For new Concrete",
+      "Transparency and Communication",
+      "Innovative Design-Build Approach",
+      "Proven Success"
+    ]
+  },                                                                                                                                              
+  "Gallery": [
+    {
+      "title": "Image",
+      "largeImage": "img/portfolio/image1.jpg",
+      "smallImage": "img/portfolio/imageSm1.jpg"
+    },
+    {
+      "title": "Moving Video",
+      "largeImage": "img/portfolio/videobg.mp4",
+      "smallImage": "img/portfolio/image1.jpg"
+    },
+    {
+      "title": "Images",
+      "largeImage": "img/portfolio/imgLarge1.jpg",
+      "smallImage": "img/portfolio/imgSmall1.jpg"
+    },
+    {
+      "title": "",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-pencil-square-o",
+      "name": "PLAN",
+      "text": "Planning with us ensures your project's success. We cover concept, site, zoning, and design to bring your vision to life."
+    },
+    {
+      "icon": "fa fa-inr",
+      "name": "ESTIMATE",
+      "text": "Trust us for accurate cost estimates that align with your vision."
+    },
+    {
+      "icon": "fa fa-users",
+      "name": "SUPERVISION",
+      "text": "Our expert team ensures quality, design compliance, and timely completion of your project, from start to finish."
+    },
+    {
+      "icon": "fa fa-thumbs-up",
+      "name": "CONTRACT",
+      "text": "Our clear and fair contracts set the stage for a successful and collaborative partnership."
+    },
+    {
+      "icon": "fa fa-building",
+      "name": "INTERIOR",
+      "text": "Elevate your space with our expert interior design. We create inviting and functional interiors that complement your architectural vision."
+    }
+  ], 
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/05.jpg",
+      "name": "Anand",
+      "job": "owner"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Naveen",
+      "job": "owner"
+    }
+  ],
+  "Contact": {
+    "address": "Kadangod,Cheruvathur(via),Kasargod,kerala,pin: 671351",
+    "phone": "+8129166249",
+    "email": "builder@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
