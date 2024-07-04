@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CarouselImg1 from "../../../src/assets/images/image1.jpg";
+import CarouselImg1 from "../../../src/assets/images/image3.jpg";
 import CarouselImg2 from "../../../src/assets/images/imagebg.jpg";
 import CarouselImg3 from "../../../src/assets/images/image2.webp";
 import "./slider.css";
@@ -24,13 +24,12 @@ const SliderComponent = () => {
   return (
     <div className="slider-container">
       <div className="slider">
-        <div className="slide">
-          <img
-            src={slidesData[currentIndex].img}
-            alt={`Slide ${currentIndex}`}
-            className="slide-image"
-          />
-        </div>
+        <div
+          className="slide-image"
+          style={{
+            backgroundImage: `url(${slidesData[currentIndex].img})`,
+            backgroundSize: "cover",
+          }}></div>
       </div>
       <div className="overlay">
         <h1 className="slide-title">{slidesData[currentIndex].title}</h1>
