@@ -163,7 +163,7 @@ export const Contact = (props) => {
 
                   <li>
                     <a
-                      href={`https://wa.me/+918891940154/?text=Hello%20there%21%20I%20have%20a%20question.`}
+                      href={`https://wa.me/+918129166249/?text=Hello%20there%21%20I%20have%20a%20question.`}
                       target="_blank"
                       rel="noopener noreferrer">
                       <i
