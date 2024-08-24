@@ -126,13 +126,13 @@
   ],
   "Team": [
     {
-      "img": "img/team/05.jpg",
-      "name": "Anand",
+      "img": "img/team/profile.webp",
+      "name": "Anand Krishnan",
       "job": "owner"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Naveen",
+      "img": "img/team/profile.webp",
+      "name": "Naveen CK",
       "job": "owner"
     }
   ],

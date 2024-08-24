@@ -564,14 +564,17 @@ header .intro-text {
 #team .team-img {
   width: 240px;
   height: 230px;
+  /* margin-left: 28rem; */
 }
 #team .thumbnail {
   background: transparent;
   border: 0;
+  
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
+  /* margin-left: 38rem; */
 }
 /* Contact Section */
 #contact {

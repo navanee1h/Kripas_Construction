@@ -13,6 +13,7 @@ const test = (req, res) => {
 
 const adminLogin = async (req, res) => {
   console.log("admin login controller ");
+  console.log(req.body);
   try {
     const { email, password } = req.body;
     console.log("Login Attempt:", { email, password }); // Log login attempt

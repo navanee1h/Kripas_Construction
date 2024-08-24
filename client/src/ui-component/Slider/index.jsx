@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import CarouselImg1 from "../../../src/assets/images/image3.jpg";
-import CarouselImg2 from "../../../src/assets/images/imagebg.jpg";
+import CarouselImg1 from "../../../src/assets/images/image3.webp";
+import CarouselImg2 from "../../../src/assets/images/imagebg.webp";
 import CarouselImg3 from "../../../src/assets/images/image2.webp";
 import "./slider.css";
 

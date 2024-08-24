@@ -1,5 +1,5 @@
 import React from "react";
-import SliderComponent from "../../Ui-Components/Slider";
+import SliderComponent from "../../ui-component/Slider";
 
 export const Header = (props) => {
   return (

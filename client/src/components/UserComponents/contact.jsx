@@ -1,6 +1,8 @@
 /* eslint-disable */
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import { toast } from "react-hot-toast";
+import { CircularProgress } from "@mui/material";
 
 const initialState = {
   name: "",
@@ -11,6 +13,7 @@ const initialState = {
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
   const [isMessageSent, setIsMessageSent] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,6 +25,7 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Send Message button clicked!");
+    setLoading(true);
     emailjs
       .sendForm(
         "service_8lkyja8",
@@ -32,10 +36,20 @@ export const Contact = (props) => {
       .then(
         (result) => {
           console.log(result.text);
-          clearState(); // Clear form data after successful submission
+          clearState();
+          toast.success("Message sent succusfully", {
+            duration: 4000,
+            position: "bottom-right",
+          });
+          setLoading(false); //  // Clear form data after successful submission
         },
         (error) => {
           console.log(error.text);
+          toast.error("Failed to send the message. Please try again.", {
+            duration: 4000,
+            position: "top-right",
+          });
+          setLoading(false);
         }
       );
   };
@@ -102,8 +116,15 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                <button
+                  type="submit"
+                  className="btn btn-custom btn-lg"
+                  disabled={loading}>
+                  {loading ? (
+                    <CircularProgress size={24} style={{ marginLeft: 10 }} />
+                  ) : (
+                    "Send Message "
+                  )}
                 </button>
               </form>
             </div>
@@ -146,7 +167,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"  ></i>
+                      <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
